@@ -24,6 +24,17 @@
 	<link href="01-homepage/css/styles.css" rel="stylesheet">
 	
 	<link href="01-homepage/css/responsive.css" rel="stylesheet">
+	<script>
+	a = 0;
+	function addCancion(){
+	        a++;
+
+	        var div = document.createElement('div');
+	        div.setAttribute('class', 'form-inline');
+	            div.innerHTML = '<div style="clear:both" class="nombre_'+a+' col-md-offset-1 col-md-6"><input class="form-control" name="nombre_'+a+'" type="text"/></div><div class="nombre_'+a+' col-md-2""><input class="form-control" name="autobus_'+a+'" type="text"/></div>';
+	            document.getElementById('canciones').appendChild(div);document.getElementById('canciones').appendChild(div);
+	}
+</script>
 	
 </head>
 <body>
@@ -203,38 +214,27 @@
 					<div class="contact-form margin-bottom">
 						<h2 class="center-text">Contamos contigo!</h2>
 						<h4 class="pre-title center-text">RSVP</h4>
-						<form method="post">
-							<div class="row">
-							
-								<div class="col-sm-12 margin-bottom">
-									<label>Nombre</label>
-									<input class="name-input" type="text" >
-								</div>
-								<div class="col-sm-6 margin-bottom">
-									<label>Guest</label>
-									<select class="event-select" name="option">
-										<option value="1"><span>00</span></option>
-										<option value="2">01</option>
-										<option value="3">02</option>
-										<option value="3">03</option>
-										<option value="3">04</option>
-									</select>
-								</div>
-								<div class="col-sm-6 margin-bottom">
-									<label>Autobus</label>
-									<select class="event-select" name="option">
-										<option value="1">All Events</option>
-										<option value="3">Option 1</option>
-										<option value="3">Option 2</option>
-										<option value="3">Option 3</option>
-									</select>
-								</div>
-								<div class="col-sm-12 center-text">
+					
+						<form  id="formulario" method="post" action="https://formspree.io/xnqgwejw">
+		    				<div class="row">
+		        				<div class="col-md-offset-1 col-md-6">
+		        					<label>Nombre:</label>
+		        				</div>
+		        				<div class="col-md-offset-1 col-md-6"><label>Autobús:</label></div>
+		        				
+		    				</div>
+		    <!-- El id="canciones" indica que la función de JavaScript dejará aquí el resultado -->
+		    				<div class="row" id="canciones">
+		    					<div class="form-inline"><div style="clear:both" class="cancion_2 col-md-offset-1 col-md-6"><input class="form-control" name="cancion_0" type="text"></div><div class="cancion_0 col-md-2" "=""><input class="form-control" name="duracion_0" type="text"></div></div>
+		    				</div>
+		    				<div class="col-md-1"><input type="button" class="btn btn-success" id="add_cancion()" onClick="addCancion()" value="+" /></div>
+		    				<div class="col-sm-12 center-text">
 									<button class="btn"><b>Asistiré</b></button>
 								</div>
-								
-							</div><!-- row -->	
-						</form>
+		    			</form>
+
+		    
+
 					</div><!-- contact-form -->
 				</div><!-- col-sm-6 -->
 				
