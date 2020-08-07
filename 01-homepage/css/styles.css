@@ -63,7 +63,7 @@ a, button{ display: inline-block; text-decoration: none; color: inherit; transit
 
 a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
-a b.light-color:hover{ text-decoration: none; color: #E45F74; }
+a b.light-color:hover{ text-decoration: none; color: #9a905f; }
 
 b{ font-weight: 500; }
 
@@ -88,23 +88,23 @@ b.light-color{ color: #444; }
 --------------------------------- */
 
 .btn{ padding: 15px 30px; border-radius: 1px; letter-spacing: 2px; 
-	border: 1px solid #E45F74; background: #E45F74; color: #fff; }
+	border: 1px solid #9a905f; background: #9a905f; color: #fff; }
 
-.btn:hover{ color: #E45F74; background: none; }
+.btn:hover{ color: #9a905f; background: none; }
 
 .btn-2{ font-size: .9em; padding: 15px 30px; border-radius: 1px; letter-spacing: 2px; 
-	border: 1px solid #E45F74; }
+	border: 1px solid #9a905f; }
 
-.btn-2:hover{ background: #E45F74; color: #fff; }
+.btn-2:hover{ background: #9a905f; color: #fff; }
 
 .border-btn{ font-size: .9em; padding-bottom: 5px; background: none; color: inherit; border: 0; 
 	position: relative; overflow: hidden; }
 
 .border-btn:after{ content:''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px; 
-	transition: all .3s; background: #E45F74; }
+	transition: all .3s; background: #9a905f; }
 
 .border-btn:before{ content:''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px; 
-	transform: translateX(-130%); transition: all .3s; background: #E45F74; }
+	transform: translateX(-130%); transition: all .3s; background: #9a905f; }
 	
 .border-btn:hover:after{ transform: translateX(130%); }
 
@@ -115,7 +115,7 @@ b.light-color{ color: #444; }
 
 .section .heading{ padding-bottom: 40px; }
 
-.section .heading .icon{ font-size: 18px; margin-top: 20px; color: #E45F74; }
+.section .heading .icon{ font-size: 18px; margin-top: 20px; color: #9a905f; }
 
 .section .heading .icon.color-white{ color: #fff; }
 
@@ -225,7 +225,7 @@ header .main-menu li.drop-down > ul.drop-down-inner{ top: 0; left: auto; left: 1
 /* DROPDOWN HOVER */
 
 header .main-menu > li > a:hover,
-header .main-menu li a.mouseover{ border-color: #E45F74; }
+header .main-menu li a.mouseover{ border-color: #9a905f; }
 
 header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block; 
 	animation: full-opacity-anim .2s forwards; }
@@ -259,7 +259,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 .slider-content i.small-icon{ font-size: 2.5em; }
 
-.slider-content .title i{ transform: translateY(10px); font-size: .8em; color: #E45F74; }
+.slider-content .title i{ transform: translateY(10px); font-size: .8em; color: #9a905f; }
 
 
 /* ---------------------------------
@@ -280,7 +280,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 .contact-area:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
 	opacity: .8; background: url(../../images/Background_Circle.png); }
 
-.contact-area .phone{ margin: 10px 0; color: #E45F74; }
+.contact-area .phone{ margin: 10px 0; color: #9a905f; }
 
 .contact-area .email{ margin: 10px 0; }
 
@@ -288,11 +288,11 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 	background: #fff; }
 
 
-.contact-form .pre-title{ margin: 10px 0; color: #E45F74; }
+.contact-form .pre-title{ margin: 10px 0; color: #9a905f; }
 
 .contact-form input,
 .contact-form select,
-.contact-form label{ display: block; width: 100%; }
+.contact-form label{ display: block;}
 
 .contact-form .margin-bottom{ margin-bottom: 20px; }
 
@@ -346,7 +346,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 	
 .w-detail .title{ margin: 10px 0; }
 
-.w-detail .icon{ font-size: 3.5em; line-height: 1; color: #E45F74; }
+.w-detail .icon{ font-size: 3.5em; line-height: 1; color: #9a905f; }
 
 
 
@@ -374,7 +374,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 .contact-area .map-area{ width: 50%; position: absolute; top: 0; bottom: 0; right: 0; }
 
 
-.contact-area .phone{ margin: 10px 0; font-size: 1em; color: #E45F74; }
+.contact-area .phone{ margin: 10px 0; font-size: 1em; color: #9a905f; }
 
 
 /* ---------------------------------
@@ -397,7 +397,7 @@ footer:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right
 footer ul > li > a{ padding: 10px 15px; }
 
 
-footer .logo-wrapper .icon{ color: #E45F74; }
+footer .logo-wrapper .icon{ color: #9a905f; }
 
 footer .logo{ display: block; height: 50px; }
 

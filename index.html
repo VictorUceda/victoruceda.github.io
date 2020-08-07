@@ -25,14 +25,14 @@
 	
 	<link href="01-homepage/css/responsive.css" rel="stylesheet">
 	<script>
-	a = 0;
-	function addCancion(){
+	a = 1;
+	function addInvitado(){
 	        a++;
 
 	        var div = document.createElement('div');
 	        div.setAttribute('class', 'form-inline');
-	            div.innerHTML = '<div style="clear:both" class="nombre_'+a+' col-md-offset-1 col-md-6"><input class="form-control" name="nombre_'+a+'" type="text"/></div><div class="nombre_'+a+' col-md-2""><input class="form-control" name="autobus_'+a+'" type="text"/></div>';
-	            document.getElementById('canciones').appendChild(div);document.getElementById('canciones').appendChild(div);
+	            div.innerHTML = '<div style="clear:both;margin-top:.5rem;" class="nombre_'+a+' col-md-offset-1 col-md-6"><input class="form-control" name="nombre_'+a+'" type="text"/></div><div style="margin-top:.5rem;" class="nombre_'+a+' col-md-2""><input list="auto" class="form-control" name="autobus_'+a+'" id="autobus_'+a+'" onclick="document.getElementById(\'autobus_'+a+'\').value = \'\'"></div>';
+	            document.getElementById('invitados').appendChild(div);document.getElementById('invitados').appendChild(div);
 	}
 </script>
 	
@@ -58,6 +58,7 @@
 	</header>
 	
 	
+	
 	<div class="main-slider">
 		<div class="display-table center-text">
 			<div class="display-table-cell">
@@ -65,60 +66,39 @@
 				
 					<i class="small-icon icon icon-tie"></i>
 					<h5 class="date">24 Octubre 2020</h5>
-					<h3 class="pre-title">Save The Date</h3>
+					<h3 class="pre-title">¡Nos casamos!</h3>
 					<h1 class="title">Alicia <i class="icon icon-heart"></i> Víctor</h1>
 					
 				</div><!-- slider-content-->
 			</div><!--display-table-cell-->
 		</div><!-- display-table-->
 	</div><!-- main-slider -->
-	
-	<section id="planning" class="section w-details-area center-text">
+
+
+
+	<section class="section story-area center-text">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-1"></div>
 				<div class="col-sm-10">
 					
-					<div class="heading">
-						<h2 class="title">Planning</h2>
+					<!--div class="heading">
+						<h2 class="title">Our Story</h2>
 						<span class="heading-bottom"><i class="icon icon-star"></i></span>
-					</div>
-					
-					<div class="wedding-details margin-bottom">
-						
-						<div class="w-detail right">
-							<i class="icon icon-ciurclke"></i>
-							<h4 class="title">CEREMONIA</h4>
-							<p>12am</p>
-							<p>Ceremonia religiosa en la Ermina de Nuestra señora de la Paz en Alcobendas.</p>
-						</div><!-- w-detail -->
-						
-						<div class="w-detail left">
-							<i class="icon icon-wine-glass"></i>
-							<h4 class="title">COCTEL & COMIDA</h4>
-							<p>2pm</p>
-							<p>Celebración y comida en el Palacio de Aldovea.</p>
-						</div><!-- w-detail -->
-						
-						<div class="w-detail right">
-							<i class="icon icomoon-dance"></i>
-							<h4 class="title">Baile</h4>
-							<p>A continuación proseguiremos con la celebración en el patio del Palacio.</p>
-						</div><!-- w-detail -->
-						
-						<div class="w-detail left">
-							<i class="icon icon-camera"></i>
-							<h4 class="title">PHOTOGRAPHY</h4>
-							<p>Look at the most passionate ceremony ever. We wish happiness to the wedding couple.</p>
-						</div><!-- w-detail -->
-						
-					</div><!-- wedding-details -->
+					</div--> 
+					<p class="desc margin-bottom">¡Que sí! Que nos casamos!!!</p>
+					<p class="desc margin-bottom">¡Estamos super felices! Nos sentimos en las nubes y queremos compartir contigo todo nuestro amor. Por eso estamos preparando una boda que hará historia y en la que te lo pasarás genial.</p>
+					<p class="desc margin-bottom">Mientras llega el gran día, hemos creado esta web con un montón de secciones para que estés al día de todo. Iremos actualizando la información por si fuera necesarias tener medidas especiales por la COVID. Estad atentos!</p>
+					<p class="desc margin-bottom">Una cosa importante, en la sección asistencia puedes confirmar si vas a la boda o no. Confírmanos lo antes posible por favor, que así organizarlo todo nos será muchos más fácil.</p>
+					<p class="desc margin-bottom">Disfruta la web y nos vemos muy pronto, mil besos!</p>
+					<!--p class="desc margin-bottom">Every bride and groom wants an incomparable wedding combined with fantasy 
+					and style. We create stunning, one-of-a-kind events produced and styled to perfection. 
+					From traditional to modern, elegant and relaxed, we focus on any event we plan.</p-->
 					
 				</div><!-- col-sm-10 -->
 			</div><!-- row -->
 		</div><!-- container -->
 	</section><!-- section -->
-
 	
 	<section class="section counter-area center-text">
 		<div class="container">
@@ -142,27 +122,56 @@
 			</div><!-- row -->
 		</div><!-- container -->
 	</section><!-- section -->
-	
 
-	<section class="section story-area center-text">
+	<section id="planning" class="section w-details-area center-text">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-1"></div>
 				<div class="col-sm-10">
 					
 					<div class="heading">
-						<h2 class="title">Our Story</h2>
+						<h2 class="title">Planning</h2>
 						<span class="heading-bottom"><i class="icon icon-star"></i></span>
 					</div>
-
-					<p class="desc margin-bottom">Every bride and groom wants an incomparable wedding combined with fantasy 
-					and style. We create stunning, one-of-a-kind events produced and styled to perfection. 
-					From traditional to modern, elegant and relaxed, we focus on any event we plan.</p>
+					
+					<div class="wedding-details margin-bottom">
+						
+						<div class="w-detail right">
+							<i class="icon icon-ciurclke"></i>
+							<h4 class="title">CEREMONIA</h4>
+							<p>1pm</p>
+							<p>Ceremonia en la Ermina de Nuestra Señora de la Paz en Alcobendas.</p>
+						</div><!-- w-detail -->
+						
+						<div class="w-detail left">
+							<i class="icon icon-wine-glass"></i>
+							<h4 class="title">COCTEL & COMIDA</h4>
+							<p>2:30pm</p>
+							<p>Celebración y comida en el Palacio de Aldovea.</p>
+							<p>El plato principal será carne. En caso de sufrir alguna alergia, intolerancia o restricción alimentaria, por favor, hacérnoslo saber.</p>
+						</div><!-- w-detail -->
+						
+						<div class="w-detail right">
+							<i class="icon icomoon-dance"></i>
+							<h4 class="title">Baile</h4>
+							<p>A continuación proseguiremos con la celebración en el patio del Palacio.</p>
+						</div><!-- w-detail -->
+						
+						<div class="w-detail left">
+							<i class="icon icon-camera"></i>
+							<h4 class="title">Fotografía</h4>
+							<p>Cuando acabe el gran día, volved aquí! Colgaremos todas las fotos y videos de la celebración.</p>
+						</div><!-- w-detail -->
+						
+					</div><!-- wedding-details -->
 					
 				</div><!-- col-sm-10 -->
 			</div><!-- row -->
 		</div><!-- container -->
 	</section><!-- section -->
+	
+
+	
 
 	<section class="section ceremony-area center-text">
 		<div class="container">
@@ -212,25 +221,39 @@
 				
 				<div class="col-sm-12 col-md-8 col-lg-6">
 					<div class="contact-form margin-bottom">
-						<h2 class="center-text">Contamos contigo!</h2>
+						<h2 class="center-text">¡Contamos contigo!</h2>
 						<h4 class="pre-title center-text">RSVP</h4>
 					
 						<form  id="formulario" method="post" action="https://formspree.io/xnqgwejw">
 		    				<div class="row">
-		        				<div class="col-md-offset-1 col-md-6">
-		        					<label>Nombre:</label>
+		        				<div class="col-md-offset-1 col-sm-6">
+		        					<label>Nombre y apellidos:</label>
 		        				</div>
-		        				<div class="col-md-offset-1 col-md-6"><label>Autobús:</label></div>
-		        				
+		        				<div class="col-md-offset-1 col-sm-3"><label>Autobús:</label></div>
 		    				</div>
 		    <!-- El id="canciones" indica que la función de JavaScript dejará aquí el resultado -->
-		    				<div class="row" id="canciones">
-		    					<div class="form-inline"><div style="clear:both" class="cancion_2 col-md-offset-1 col-md-6"><input class="form-control" name="cancion_0" type="text"></div><div class="cancion_0 col-md-2" "=""><input class="form-control" name="duracion_0" type="text"></div></div>
+		    				<div class="row" id="invitados">
+		    					<div class="form-inline"><div style="clear:both;margin-top:.5rem;" class="col-md-offset-1 col-sm-6"><input class="form-control" name="nombre_0" type="text"></div><div class="col-sm-3" style="margin-top:.5rem;"><input list="auto" name="autobus_0" id="autobus_0" onclick="document.getElementById('autobus_0').value = ''">
+								  <datalist id="auto">
+								    <option value="Sí">
+								    <option value="No">
+								  </datalist></div>
+		    					</div>
+		    					
+		    					<div class="form-inline"><div style="clear:both;margin-top: .5rem;" class="col-md-offset-1 col-sm-6"><input class="form-control" name="nombre_1" type="text"></div><div class="col-sm-3" style="margin-top:.5rem;"><input list="auto" name="autobus_1" id="autobus_1" onclick="document.getElementById('autobus_1').value = ''"></div>
+		    					</div>
 		    				</div>
-		    				<div class="col-md-1"><input type="button" class="btn btn-success" id="add_cancion()" onClick="addCancion()" value="+" /></div>
-		    				<div class="col-sm-12 center-text">
-									<button class="btn"><b>Asistiré</b></button>
-								</div>
+
+		    				<div class="row"><div class="col-sm-1"><input type="button" class="btn btn-success" id="add_invitado()" onClick="addInvitado()" value="+" /></div></div>
+
+		    				<div class="row"></div>
+		    				<div class="row">
+		        				<div class="col-md-offset-1 col-sm-6"><label style="margin-top: 1.5rem;">Observaciones:</label></div>
+		    				</div>
+		    				<div class="row">
+		        				<textarea class="form-control" name="observaciones" id="obs_textarea" type="text" onclick="if(document.getElementById('obs_textarea').value == 'Indicar Intoleracias, alergias o cualquier inconveniente si los hubiera.' ){document.getElementById('obs_textarea').value = ''}">Indicar Intoleracias, alergias o cualquier inconveniente si los hubiera.</textarea>
+		    				</div>
+		    				<div class="row"><div class="col-sm-12 center-text"><button class="btn"><b>Asistiré</b></button></div></div>
 		    			</form>
 
 		    
