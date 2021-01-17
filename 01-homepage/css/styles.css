@@ -40,7 +40,7 @@
 html{ font-size: 100%; height: 100%; overflow-x: hidden;margin: 0px;  padding: 0px; touch-action: manipulation; }
 
 
-body{ font-size: 16px; font-family: 'Bitter', serif; width: 100%; height: 100%; margin: 0; font-weight: 400;
+body{ font-size: 16px; font-family: 'PeachMemoirs'; width: 100%; height: 100%; margin: 0; font-weight: 400;
 	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word; 
 	color: #333; }
 
@@ -48,16 +48,16 @@ h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; paddi
 
 h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
 
-h1,h2,h3{ font-family: 'Playball', cursive; }
+h1,h2,h3,h4,h5{ font-family: 'Salome'; }
 
 p{ line-height: 1.6; font-size: 1.05em; font-weight: 400; color: #555; }
 
-h1{ font-size: 5em; line-height: 1; }
-h2{ font-size: 3.5em; line-height: 1.1; }
-h3{ font-size: 2.5em; }
-h4{ font-size: 1.5em; }
-h5{ font-size: 1.2em; }
-h6{ font-size: .9em; letter-spacing: 1px; }
+h1{ font-size: 10em; line-height: 1; }
+h2{ font-size: 7em; line-height: 1.1; }
+h3{ font-size: 5em; }
+h4{ font-size: 3em; }
+h5{ font-size: 2em; }
+h6{ font-size: 1.6em; letter-spacing: 1px; }
 
 a{ text-decoration: none; color: inherit; transition: all .3s; line-height: 1; }
 button{ display: inline-block; text-decoration: none; color: inherit; transition: all .3s; line-height: 1; }
@@ -87,6 +87,8 @@ b.light-color{ color: #444; }
 /* ---------------------------------
 2. COMMONS FOR PAGE DESIGN
 --------------------------------- */
+.mayus{  text-transform: uppercase;}
+.peach{  font-family: 'PeachMemoirs'}
 
 .btn{ padding: 15px 30px; border-radius: 1px; letter-spacing: 2px; 
 	border: 1px solid #9a905f; background: #9a905f; color: #fff; }
@@ -114,7 +116,7 @@ b.light-color{ color: #444; }
 
 .section{ padding: 100px 0 70px; }
 
-.section .heading{ padding-bottom: 40px; }
+.section .heading{ padding-bottom: 10px; }
 
 .section .heading .icon{ font-size: 18px; margin-top: 20px; color: #9a905f; }
 
@@ -283,7 +285,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 .contact-area .phone{ margin: 10px 0; color: #9a905f; }
 
-.contact-area .email{ margin: 10px 0; }
+.contact-area .email{ margin: 10px 0; color: #9a905f;}
 
 .contact-area .contact-form{ padding: 50px 40px; border-radius: 5px; box-shadow: 1px 15px 40px rgba(0,0,0,.3); 
 	background: #fff; }
@@ -375,7 +377,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 .contact-area .map-area{ width: 50%; position: absolute; top: 0; bottom: 0; right: 0; }
 
 
-.contact-area .phone{ margin: 10px 0; font-size: 1em; color: #9a905f; }
+.contact-area .phone{ margin: 10px 0; font-size: 0.5em; color: #9a905f; }
 
 
 /* ---------------------------------

@@ -13,6 +13,28 @@
 }
 
 @font-face {
+  font-family: "SincerlyRose";
+  src:url("../fonts/SincerlyRose-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PeachMemoirs";
+  src:url("../fonts/PeachMemoirs.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Salome";
+  src:url("../fonts/Salome Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
   font-family: "icomoon";
   src:url("../fonts/icomoon.eot");
   src:url("../fonts/icomoon?#iefix") format("embedded-opentype"),
