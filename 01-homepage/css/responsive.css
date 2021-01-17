@@ -37,7 +37,7 @@
 
 	p{ line-height: 1.4; }
 
-	h1{ font-size: 3em; }
+	h1{ font-size: 4em; }
 	h2{ font-size: 2.5em; }
 	h3{ font-size: 1.8em; }
 	h4{ font-size: 1.5em; }
@@ -66,7 +66,7 @@
 	/* BOTTOM AREA */
 	
 	header .main-menu{ text-align: left; display: none; float: none; clear: both; max-height: 400px;
-		overflow: auto; border-top: 1px solid #ccc; background: #333; }
+		overflow: auto; border-top: 1px solid #ccc; background: #eee; }
 	
 	header .main-menu > li{ display: block; float: none; border-bottom: 1px solid #444; }
 	
