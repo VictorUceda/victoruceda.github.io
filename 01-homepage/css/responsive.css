@@ -15,9 +15,12 @@
 	1. PRIMARY STYLES
 	--------------------------------- */
 
-	h1{ font-size: 4em; }
-	h2{ font-size: 3em; }
-	h3{ font-size: 2em; }
+	h1{ font-size: 5.5em; }
+	h2{ font-size: 3.9em; }
+	h3{ font-size: 2.5em; }
+	h4{ font-size: 2em; }
+	h5{ font-size: 1.6em; }
+	h6{ font-size: 1.3em; }
 	
 	/* ---------------------------------
 	3. MENU
@@ -37,11 +40,12 @@
 
 	p{ line-height: 1.4; }
 
-	h1{ font-size: 4em; }
-	h2{ font-size: 2.5em; }
+	h1{ font-size: 5em; }
+	h2{ font-size: 3em; }
 	h3{ font-size: 1.8em; }
 	h4{ font-size: 1.5em; }
 	h5{ font-size: 1.2em; }
+	h6{ font-size: 1em; }
 	
 	/* ---------------------------------
 	2. COMMONS FOR PAGE DESIGN
